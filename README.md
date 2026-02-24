@@ -18,4 +18,4 @@ Found device:
 ----------------------------------------
 ```
 
-If you want to know more details, uncommit L55 to print more data
+If you want to know more details, uncommit L25 to print more data
