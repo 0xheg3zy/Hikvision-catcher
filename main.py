@@ -27,9 +27,9 @@ start = time.time()
 while time.time() - start < 5:
     try:
         data, addr = sock.recvfrom(8192)
-
         try:
             xml_data = data.decode(errors="ignore")
+#            print("data is : \n"+xml_data)
             root = ET.fromstring(xml_data)
 
             model = root.findtext("DeviceDescription")
